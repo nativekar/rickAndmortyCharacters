@@ -25,7 +25,7 @@ A few justifications/explanations behind some of my design choices below:
 <li>
 Why is the Dashboard a class component and the Characters a functional one?
 
-<b>My reason</b> - The Dashboard Component dealt with making the API call to the <a href="https://rickandmortyapi.com/.com"> Rick and Morty API <a/> endpoint on load, so the class component. The Characters component essentially had to display data and there was no real interaction(s), hence the functional component. I coold've used Hooks to make the     Dashboard Component functional, too, but using a class was a conscious decision to depict the view and the logic differently.
+<b>My reason</b> - The Dashboard Component dealt with making the API call to the <a href="https://rickandmortyapi.com/"> Rick and Morty API <a/> endpoint on load, so the class component. The Characters component essentially had to display data and there was no real interaction(s), hence the functional component. I coold've used Hooks to make the     Dashboard Component functional, too, but using a class was a conscious decision to depict the view and the logic differently.
 
 </li>
 
