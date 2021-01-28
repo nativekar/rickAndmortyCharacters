@@ -20,19 +20,19 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 A few justifications/explanations behind some of my design choices below:
 
-<ul>
+<ol>
 
 <li>
 Why is the Dashboard a class component and the Characters a functional one?
 
-My reason - The Dashboard Component dealt with making the API call to the rickandmorty.com API endpoint on load, so the class component. The Characters component essentially had to display data and there was no real interaction(s), hence the functional component. I could've used Hooks to make the     Dashboard Component functional, too, but using a class was a conscious decision to depict the view and the logic differently.
+<b>My reason</b> - The Dashboard Component dealt with making the API call to the rickandmorty.com API endpoint on load, so the class component. The Characters component essentially had to display data and there was no real interaction(s), hence the functional component. I coold've used Hooks to make the     Dashboard Component functional, too, but using a class was a conscious decision to depict the view and the logic differently.
 
 </li>
 
 <li>
-Why use semantic-ui and styled-components when plain ol' CSS would've cut it?
+Why use semantic-ui and styled-components when plain ol' CSS woold've cut it?
 
-My reason - I wanted to demonstrate knowledge of these libraries as I use them in my day-to-day work in my current role.
+<b>My reason</b> - I wanted to demonstrate knowledge of these libraries as I use them in my day-to-day work in my current role.
 
 </li>
-</ul>
+</ol>
