@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Divider } from "semantic-ui-react";
 import Characters from "./Characters";
 
 class Dashboard extends Component {
@@ -23,6 +24,8 @@ class Dashboard extends Component {
     const { characters } = this.state;
     return (
       <div style={{ padding: 20 }}>
+        <h1>Rick and Morty Characters</h1>
+        <Divider />
         <Characters characters={characters} />
       </div>
     );
